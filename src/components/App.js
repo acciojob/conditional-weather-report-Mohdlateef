@@ -9,7 +9,7 @@ const App = () => {
   return (
     
     <div>
-      test
+    
        <WeatherDsiplay weather={weather} condition={condition}/>
         {/* Do not remove the main div */}
         
