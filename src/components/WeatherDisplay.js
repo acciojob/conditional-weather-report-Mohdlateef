@@ -5,7 +5,7 @@ let WeatherDsiplay = ({ weather, condition }) => {
     return (
         <div>
             {
-                (weather > 20) ? (<div><p>{weather}<spain></spain></p><p>{condition}</p> </div>) : (<div><p>{weather}<spain></spain></p><p>{condition}</p></div>)
+                (weather > 20) ? (<div><p>{weather}<span></span></p><p>{condition}</p> </div>) : (<div><p>{weather}<span></span></p><p>{condition}</p></div>)
             }
         </div>
     )
