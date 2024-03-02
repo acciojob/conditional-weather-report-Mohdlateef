@@ -5,7 +5,7 @@ console.log(condition);
     return(
         <div>
 {
-(weather>20)?(<div>{weather}and{condition}</div>):(<div>{weather}and{condition}</div>)
+(weather>20)?(<p>{weather}and{condition}</p>):(<p>{weather}and{condition}</p>)
 }
         </div>
     )
